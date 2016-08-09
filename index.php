@@ -1,0 +1,82 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: diego
+ * Date: 05/08/16
+ * Time: 13:28
+ */
+ini_set('display_errors', true);
+require __DIR__ . '/vendor/autoload.php';
+header('Content-type: text/plain');
+$a = new NFETxt\NFe();
+$a->addRow(new \NFETxt\Rows\A());
+$b = new \NFETxt\Rows\B();
+$b->cNF = 'teste';
+$a->addRow($b);
+$a->addRow(new \NFETxt\Rows\BA());
+$a->addRow(new \NFETxt\Rows\BA\BA10());
+$a->addRow(new \NFETxt\Rows\BA\BA14());
+$a->addRow(new \NFETxt\Rows\C());
+$a->addRow(new \NFETxt\Rows\C\C02());
+$a->addRow(new \NFETxt\Rows\C\C05());
+$a->addRow(new \NFETxt\Rows\D());
+$a->addRow(new \NFETxt\Rows\E());
+$a->addRow(new \NFETxt\Rows\E\E02());
+$a->addRow(new \NFETxt\Rows\E\E05());
+$a->addRow(new \NFETxt\Rows\F());
+$a->addRow(new \NFETxt\Rows\F\F02());
+$a->addRow(new \NFETxt\Rows\G());
+$a->addRow(new \NFETxt\Rows\G\G02());
+$a->addRow(new \NFETxt\Rows\GA());
+$a->addRow(new \NFETxt\Rows\GA\GA02());
+$a->addRow(new \NFETxt\Rows\H());
+$a->addRow(new \NFETxt\Rows\I());
+$a->addRow(new \NFETxt\Rows\I\I05a());
+$a->addRow(new \NFETxt\Rows\I\I18());
+$a->addRow(new \NFETxt\Rows\I\I25());
+$a->addRow(new \NFETxt\Rows\I\I50());
+$a->addRow(new \NFETxt\Rows\I\I52());
+$a->addRow(new \NFETxt\Rows\J());
+$a->addRow(new \NFETxt\Rows\M());
+$a->addRow(new \NFETxt\Rows\N());
+$a->addRow(new \NFETxt\Rows\N\N02());
+$a->addRow(new \NFETxt\Rows\O());
+$a->addRow(new \NFETxt\Rows\O\O07());
+$a->addRow(new \NFETxt\Rows\O\O10());
+$a->addRow(new \NFETxt\Rows\P());
+$a->addRow(new \NFETxt\Rows\Q());
+$a->addRow(new \NFETxt\Rows\Q\Q02());
+$a->addRow(new \NFETxt\Rows\R());
+$a->addRow(new \NFETxt\Rows\R\R02());
+$a->addRow(new \NFETxt\Rows\S());
+$a->addRow(new \NFETxt\Rows\S\S02());
+$a->addRow(new \NFETxt\Rows\T());
+$a->addRow(new \NFETxt\Rows\T\T02());
+$a->addRow(new \NFETxt\Rows\U());
+$a->addRow(new \NFETxt\Rows\UA());
+$a->addRow(new \NFETxt\Rows\W());
+$a->addRow(new \NFETxt\Rows\W\W02());
+$a->addRow(new \NFETxt\Rows\W\W17());
+$a->addRow(new \NFETxt\Rows\W\W23());
+$a->addRow(new \NFETxt\Rows\X());
+$a->addRow(new \NFETxt\Rows\X\X03());
+$a->addRow(new \NFETxt\Rows\X\X04());
+$a->addRow(new \NFETxt\Rows\X\X11());
+$a->addRow(new \NFETxt\Rows\X\X18());
+$a->addRow(new \NFETxt\Rows\X\X22());
+$a->addRow(new \NFETxt\Rows\X\X26());
+$a->addRow(new \NFETxt\Rows\X\X33());
+$a->addRow(new \NFETxt\Rows\Y());
+$a->addRow(new \NFETxt\Rows\Y\Y02());
+$a->addRow(new \NFETxt\Rows\Y\Y07());
+$a->addRow(new \NFETxt\Rows\YA());
+$a->addRow(new \NFETxt\Rows\Z());
+$a->addRow(new \NFETxt\Rows\Z\Z04());
+$a->addRow(new \NFETxt\Rows\Z\Z07());
+$a->addRow(new \NFETxt\Rows\Z\Z10());
+$a->addRow(new \NFETxt\Rows\ZA());
+$a->addRow(new \NFETxt\Rows\ZB());
+$a->addRow(new \NFETxt\Rows\ZC());
+$a->addRow(new \NFETxt\Rows\ZC\ZC04());
+$a->addRow(new \NFETxt\Rows\ZC\ZC10());
+echo $a;

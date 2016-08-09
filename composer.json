@@ -1,0 +1,24 @@
+{
+  "name": "dsilva94/nfe_txt",
+  "description": "Gerador do TXT da nota fiscal 3.10",
+  "keywords": ["nfe", "nota", "fiscal", "nota fiscal"],
+  "authors": [
+    {
+      "name": "Diego da Silva Oliveira",
+      "email": "dsilvaoliveira94@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "dsilvaoliveira94@gmail.com"
+  },
+  "autoload": {
+    "psr-4": {
+      "NFETxt\\" : "src/NFETxt"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev"
+}
