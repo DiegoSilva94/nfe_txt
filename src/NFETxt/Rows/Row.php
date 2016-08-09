@@ -5,14 +5,16 @@ namespace NFETxt\Rows;
 use NFETxt\Exception\ValidAtribute;
 use NFETxt\Interfaces\Validator;
 use NFETxt\Interfaces\Filter;
+use NFETxt\Interfaces\Row as RowInterface;
 
-class Row
+class Row implements RowInterface
 {
 
     /**
      * @var Validator
      */
     protected $validator = null;
+    
     /**
      * @var Filter
      */
@@ -50,6 +52,7 @@ class Row
         if(property_exists($this, $name))
             $this->$name = $value;
     }
+    
     /**
      * @return string
      */
@@ -65,6 +68,7 @@ class Row
         }
         return $stub;
     }
+    
     /**
      * Get the migration stub file.
      *
@@ -74,6 +78,7 @@ class Row
     {
         return file_get_contents($this->getStubPath().'/' . (new \ReflectionClass($this))->getShortName() . '.stub');
     }
+    
     /**
      * Get the path to the stubs.
      *
@@ -83,6 +88,7 @@ class Row
     {
         return __DIR__ . '/../../stubs/'. $this->getVersion();
     }
+    
     /**
      * Get the version NFe.
      *
