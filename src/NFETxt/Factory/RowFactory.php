@@ -32,7 +32,7 @@ class RowFactory
     private function getClassName($row)
     {
         if(preg_match('/\\d/', $row))
-            return '\\NFETxt\\Rows\\' . preg_replace('/\\d/', '', $row) .'\\'. $row;
+            return '\\NFETxt\\Rows\\' . preg_replace('/\\d+\\w/', '', $row) .'\\'. $row;
         return '\\NFETxt\\Rows\\' . $row;
     }
 }

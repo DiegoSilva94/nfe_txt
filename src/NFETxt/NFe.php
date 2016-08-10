@@ -179,7 +179,7 @@ class NFe
             $this->rows[] = $row;
             return $e->getMessage();
         } catch (\Exception $e) {
-			return var_dump($e->getMessage());
+			return $e->getMessage();
 		}
 	}
 
