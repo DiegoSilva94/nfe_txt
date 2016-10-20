@@ -1,4 +1,47 @@
 <?php
 return [
-
+    [
+        'numero' => '159',
+        'campo' => 'tpArma',
+        'descricao' => 'Indicador do tipo de arma de fogo',
+        'observacao' => '0-Uso permitido;1-Uso restrito',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '1',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '160',
+        'campo' => 'nSerie',
+        'descricao' => 'Número de série da arma',
+        'observacao' => '',
+        'tipo' => 'Caractere',
+        'ocorrencia' => '1-1',
+        'tamanho' => '1-15',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '161',
+        'campo' => 'nCano',
+        'descricao' => 'Número de série do cano',
+        'observacao' => '',
+        'tipo' => 'Caractere',
+        'ocorrencia' => '1-1',
+        'tamanho' => '1-15',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '162',
+        'campo' => 'descr',
+        'descricao' => 'Descrição completa da arma, compreendendo: calibre, marca,capacidade, tipo de funcionamento, comprimento e demais elementos que permitam a sua perfeita identificação',
+        'observacao' => '',
+        'tipo' => 'Caractere',
+        'ocorrencia' => '1-1',
+        'tamanho' => '1-256',
+        'decimal' => '',
+        'anotação' => '',
+    ]
 ];

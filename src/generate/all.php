@@ -1278,7 +1278,7 @@ return [
     ],
     [
         'numero' => '328',
-        'campo' => 'vBC',
+            'campo' => 'vBC',
         'descricao' => 'Base de cálculos do ICMS',
         'observacao' => '',
         'tipo' => 'Numérico',

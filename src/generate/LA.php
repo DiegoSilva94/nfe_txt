@@ -1,4 +1,47 @@
 <?php
 return [
-
+    [
+        'numero' => '162b',
+        'campo' => 'cProdANP',
+        'descricao' => 'Código de produto da ANP',
+        'observacao' => 'Utilizar a codificação de produtos do Sistema de Informações de Movimentação de produtos - SIMP (http://www.anp.gov.br/simp/index.htm). Informar 999999999 se o produto não possuir código de produto ANP.',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '9',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '162c',
+        'campo' => 'CODIF',
+        'descricao' => 'Código de autorização/ registro do CODIF',
+        'observacao' => 'Informar apenas quando a UF utilizar o CODIF (Sistema de Controle do Diferimento do Imposto nas Operações com AEAC - Álcool Etílico Anidro Combustível).',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '0-21',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '162d',
+        'campo' => 'qTemp',
+        'descricao' => 'Quantidade de combustível faturada à temperatura ambiente',
+        'observacao' => 'Informar quando a quantidade faturada informada no campo qCom (I10) tiver sido ajustada para uma temperatura diferente da ambiente.',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '16',
+        'decimal' => '4',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '162e',
+        'campo' => 'UFCons',
+        'descricao' => 'Sigla da UF de consumo',
+        'observacao' => 'Informar a UF de consumo',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '2',
+        'decimal' => '',
+        'anotação' => '',
+    ]
 ];

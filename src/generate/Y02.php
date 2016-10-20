@@ -1,4 +1,47 @@
 <?php
 return [
-
+    [
+        'numero' => '391',
+        'campo' => 'nFat',
+        'descricao' => 'Número da Fatura',
+        'observacao' => '',
+        'tipo' => 'Caractere',
+        'ocorrencia' => '0-1',
+        'tamanho' => '1-60',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '392',
+        'campo' => 'vOrig',
+        'descricao' => 'Valor Original da Fatura',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '393',
+        'campo' => 'vDesc',
+        'descricao' => 'Valor do desconto',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '394',
+        'campo' => 'vLiq',
+        'descricao' => 'Valor Líquido da Fatura',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ]
 ];

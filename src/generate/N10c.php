@@ -1,4 +1,47 @@
 <?php
 return [
-
+    [
+        'numero' => '245.25',
+        'campo' => 'orig',
+        'descricao' => 'origem da mercadoria',
+        'observacao' => '(NT 2013.006)',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '1',
+        'decimal' => '',
+        'anotação' => 'Origem da mercadoria:0 - Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8;1 - Estrangeira - Importação direta, exceto a indicada no código 6;2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7;3 - Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% e inferior ou igual a 70%;4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam as legislações citadas nos Ajustes;5 - Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40%;6 - Estrangeira - Importação direta, sem similar nacional, constante em lista da CAMEX e gás natural;7 - Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista da CAMEX e gás natural.8 - Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70%;',
+    ],
+    [
+        'numero' => '245.26',
+        'campo' => 'CSOSN',
+        'descricao' => 'codigo de situação da operação – simples nacional',
+        'observacao' => '101- Tributada pelo Simples Nacional com permissão de crédito.',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '3',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '245.27',
+        'campo' => 'pCredSN',
+        'descricao' => 'aliquota aplicavel de calculo do credito (simples nacional)',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '7',
+        'decimal' => '2-4',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '245.28',
+        'campo' => 'vCredICMSSN',
+        'descricao' => 'valor credito do ICMS que pode ser aproveitado nos termos do art. 23 da LC 123(simples nacional)',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ]
 ];

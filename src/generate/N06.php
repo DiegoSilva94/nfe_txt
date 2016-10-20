@@ -1,4 +1,47 @@
 <?php
 return [
-
+    [
+        'numero' => '203',
+        'campo' => 'orig',
+        'descricao' => 'Origem da mercadoria',
+        'observacao' => '(NT 2013.006)',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '1',
+        'decimal' => '',
+        'anotação' => 'Origem da mercadoria:0 - Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8;1 - Estrangeira - Importação direta, exceto a indicada no código 6;2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7;3 - Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% e inferior ou igual a 70%;4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam as legislações citadas nos Ajustes;5 - Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40%;6 - Estrangeira - Importação direta, sem similar nacional, constante em lista da CAMEX e gás natural;7 - Estrangeira - Adquirida no mercado interno, sem similar nacional, constante em lista da CAMEX e gás natural.8 - Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70%;',
+    ],
+    [
+        'numero' => '204',
+        'campo' => 'CST',
+        'descricao' => 'Tributação do ICMS',
+        'observacao' => '40-Isenta;41-Não tributada;50-Suspensão',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '2',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '204.01',
+        'campo' => 'vICMSDeson',
+        'descricao' => 'Valor do ICMS desonerado',
+        'observacao' => 'Informar apenas nas operações:a) com produtos beneficiados com a desoneração condicional do ICMS.b) destinadas à SUFRAMA, informando-se o valor que seria devido se não houvesse isenção.c) de venda a órgão da administração pública direta e suas fundações e autarquias com isenção do ICMS. (NT 2011/004).',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '204.02',
+        'campo' => 'motDesICMS',
+        'descricao' => 'Motivo da desoneração do ICMS',
+        'observacao' => 'Campo será preenchido quando o campo anterior estiver preenchido. Infomar o motivo da desoneração:1- Taxi;3- Produtor Agropecuário;4- Frotista/Locadora5- Diplomático/Consular6- Utilitários e Motocicletas da Amazônia Ocidental e Áreas de Livre Comércio (Resolução 714/88 e 790/94 - CONTRAN e suas alterações);7- SUFRAMA8- Venda a Órgão Público9- Outros;10-Deficiente Condutor (Convênio ICMS 38/12);11- Deficiente Não Condutor (Convênio ICMS 38/12); 12- Órgão de fomento e desenolvimento agropercuário;',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '2',
+        'decimal' => '',
+        'anotação' => '',
+    ]
 ];

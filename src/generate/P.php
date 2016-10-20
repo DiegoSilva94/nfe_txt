@@ -1,4 +1,47 @@
 <?php
 return [
-
+    [
+        'numero' => '263',
+        'campo' => 'vBC',
+        'descricao' => 'Valor da BC do Imposto de Importação',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '264',
+        'campo' => 'vDespAdu',
+        'descricao' => 'Valor das desepesas aduaneiras',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '265',
+        'campo' => 'vII',
+        'descricao' => 'Valor do Imposto de Importação',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '266',
+        'campo' => 'vIOF',
+        'descricao' => 'Valor do Imposto sobre Operações Financeiras',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '0-1',
+        'tamanho' => '15',
+        'decimal' => '2',
+        'anotação' => '',
+    ]
 ];

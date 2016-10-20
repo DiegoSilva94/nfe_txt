@@ -1,4 +1,47 @@
 <?php
 return [
-
+    [
+        'numero' => '269',
+        'campo' => 'CST',
+        'descricao' => 'Código de Situação Tributária do PIS',
+        'observacao' => '(01-Operação Tributável,base de cálculo = valor da operação alíquota normal,(cumulativo/não cumulativo); 02- Operação Tributável (base de cálculo = valor da operação, alíquota diferenciada;',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '2',
+        'decimal' => '',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '270',
+        'campo' => 'vBC',
+        'descricao' => 'Valor da Base de Cálculo do PIS',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '13',
+        'decimal' => '2',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '271',
+        'campo' => 'pPIS',
+        'descricao' => 'Alíquota do PIS (em percentual)',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '3',
+        'decimal' => '2-4',
+        'anotação' => '',
+    ],
+    [
+        'numero' => '272',
+        'campo' => 'vPIS',
+        'descricao' => 'Valor do PIS',
+        'observacao' => '',
+        'tipo' => 'Numérico',
+        'ocorrencia' => '1-1',
+        'tamanho' => '13',
+        'decimal' => '2',
+        'anotação' => '',
+    ]
 ];
